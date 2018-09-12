@@ -1,0 +1,22 @@
+[pop3]
+pop3_host = 127.0.0.1
+pop3_username = yourname
+pop3_password = yourpassword
+
+[smtp]
+smtp_host = 127.0.0.1
+smtp_username = yourname
+smtp_password = yourpassword
+
+[forward]
+forward_to = yourmail@xxx.xxx
+forward_mail_list = true
+forward_mail_body = true
+forward_subject_max_length = 100
+forward_filter = xxx;yyy;zzz
+
+[dir]
+log_dir = /home/who/py-forward-mail/log #blank : current py dir
+keep_days = 2
+
+
